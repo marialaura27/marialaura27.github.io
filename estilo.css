@@ -17,10 +17,32 @@ h2{
     width: 150px;
     height: 200px;
 }
-a:visited {
+a:visited, a:link {
     color: black;
   }
 
 a{
     text-decoration: none;
+}
+a:hover{
+    color: #527a7a;
+
+}
+
+#descricao{
+    position: absolute;
+    top: 352px;
+    left: 195px;
+}
+#foto{
+    padding: 10px;
+    background-color: #47476b;
+}
+
+#habilidades li:nth-child(odd){
+    background-color: #b3b3cb;
+
+}
+#habilidades{
+    margin-right: 600px;
 }
